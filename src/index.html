@@ -1,0 +1,391 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="flex flex-col">
+
+  <!----------------- Main Nav ----------------->
+  <nav
+    class="z-50 fixed top-0 left-0 right-0 w-full flex flex-row self-stretch justify-center bg-stone-900 bg-opacity-65">
+
+    <!----------------- Nav Logo and Logo Wrapper Container----------------->
+    <div class="px-2 py-2 bg-inherit">
+      <a href="#main" class="bg-inherit">
+        <img loading="lazy" src="./images/sc-logo.png" alt="simple church logo home link"
+          class="aspect-[2.68] object-contain object-center w-[99px] overflow-hidden shrink-0 max-w-full" />
+      </a>
+    </div>
+    <div class=" bg-inherit max-sm:justify-normal max-sm:flex-nowrap justify-evenly flex gap-5 items-start w-full max-md:flex-wrap">
+      <!----------------- Page Nav ----------------->
+      <ul class="max-sm:hidden justify-between items-stretch flex gap-5 pr-5 py-2">
+        <li class="text-stone-200 text-base font-semibold grow whitespace-nowrap">
+          <a href="#mission">
+            Mission
+          </a>
+        </li>
+        <li class="text-stone-200 text-base font-semibold">
+          <a href="#sermons">
+            Sermons
+          </a>
+        </li>
+        <li class="text-stone-200 text-base font-semibold">
+          <a href="#journey">
+            Journey
+          </a>
+        </li>
+        <li class="text-stone-200 text-base font-semibold grow whitespace-nowrap">
+          <a href="#join-us">
+            Join Us
+          </a>
+        </li>
+      </ul>
+
+      <!----------------- External Nav ----------------->
+      <div class="flex items-stretch self-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap py-1">
+        <ul class="items-stretch flex justify-between gap-2.5">
+          <div
+            class="justify-between items-stretch border border-[color:var(--Cloud-100,#EFE7E5)] flex gap-2.5 px-6 py-2.5 rounded-xl border-solid max-md:px-5">
+            <div class="text-stone-200 text-base font-semibold">
+              <a href="https://simplechurch-cc.churchcenter.com/giving">
+                Give
+              </a>
+            </div>
+          </div>
+          <div class="justify-between items-stretch bg-stone-700 flex gap-2.5 px-6 py-2.5 rounded-xl max-md:px-5">
+            <div class="text-stone-200 text-base font-semibold grow whitespace-nowrap">
+              <a href="#prayer-requests">
+                Prayer Requests
+              </a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!----------------- Main Site Content ----------------->
+  <main id="main">
+    <div
+      class="flex-col justify-center items-center self-stretch overflow-hidden relative flex min-h-[775px] w-full pb-12 px-5 max-md:max-w-full">
+      <img loading="lazy" src="./images/hero.jpg" class="absolute h-full w-full object-cover object-center inset-0"
+        alt="hero image of a sunset" />
+      <h2
+        class="relative text-white text-center text-lg font-semibold leading-8 tracking-wider self-center whitespace-nowrap mt-48 max-md:mt-10">
+        SIMPLE CHURCH
+      </h2>
+      <h1 class="relative self-center text-stone-200 text-center text-7xl font-semibold leading-[68px] tracking-tighter max-w-[627px] mt-4 max-md:max-w-full
+        max-md:text-4xl max-md:leading-10">
+        Here at Simple Church Our Mission is the Great Commission.
+      </h1>
+      <p
+        class="relative self-center text-white text-center text-lg font-medium leading-8 tracking-wider max-w-[627px] mt-4 max-md:max-w-full">
+        At Simple Church, we gather to grow in faith and community, then scatter
+        as empowered disciples to spread Christ's love in the world.
+      </p>
+      <h3 class="relative text-stone-200 text-lg font-semibold whitespace-nowrap justify-center items-stretch bg-stone-700 self-center mt-6 mb-24 px-6 py-3
+        rounded-xl max-md:mb-10 max-md:px-5">
+        View Sermons
+      </h3>
+    </div>
+
+    <!----------------- Our Mission Section ----------------->
+    <div id="mission" class="contrast bg-white bg-opacity-50 self-center w-full py-12">
+      <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <div class="flex flex-col items-stretch w-[23%] max-md:w-full max-md:ml-0">
+          <img loading="lazy" src="./images/mission-statment-logo.png" alt="simple church logo"
+            class="aspect-[0.75] object-contain object-center w-[264px] overflow-hidden shrink-0 max-w-full my-auto max-md:mt-10" />
+        </div>
+        <div class="flex flex-col items-stretch ml-5 w-full max-md:ml-0">
+          <div class="justify-center items-center self-stretch flex flex-col mt-32 px-5 max-md:max-w-full max-md:mt-10">
+            <h3 class="text-orange-500 text-center text-lg font-semibold leading-8 tracking-wider">
+              OUR MISSION
+            </h3>
+            <h2
+              class="self-stretch text-stone-700 text-center text-4xl font-semibold leading-10 tracking-tighter mt-4 max-md:max-w-full">
+              Gather. Strengthen. Scatter. Impact.
+            </h2>
+            <p
+              class="self-stretch text-black text-opacity-80 text-center text-lg font-medium leading-8 tracking-wider mt-4 max-md:max-w-full">
+              At Simple Church, we gather to grow in faith and community, then
+              scatter as empowered disciples to spread Christ's love in the world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------- Prayer Requests Section ----------------->
+    <div id="prayer-requests"
+      class="items-center self-stretch bg-stone-900 flex w-full flex-col pt-12 px-16 max-md:max-w-full max-md:px-5">
+      <div class="justify-center w-[989px] max-w-full mt-20 max-md:mt-10">
+        <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+          <div class="flex flex-col items-stretch w-3/5 max-md:w-full max-md:ml-0">
+            <div class="justify-center items-start flex flex-col my-auto max-md:max-w-full max-md:mt-10">
+              <h3
+                class="text-orange-500 text-center text-lg font-semibold leading-8 tracking-wider self-stretch max-md:max-w-full">
+                PRAYER REQUESTS
+              </h3>
+              <h2
+                class="self-stretch text-stone-200 text-4xl font-semibold leading-10 tracking-tighter mt-4 max-md:max-w-full">
+                Prayer Requests
+              </h2>
+              <p class="self-stretch text-white text-lg font-medium leading-8 tracking-wider mt-4 max-md:max-w-full">
+                At Simple Church, we believe in the power of prayer and the
+                strength that comes from a community united in faith.
+              </p>
+              <div class="justify-center items-stretch border border-[color:var(--Button-Primary-text,#EFE7E5)] flex gap-2.5 mt-6 px-6 py-3 rounded-xl border-solid
+                self-start max-md:px-5">
+                <div class="text-stone-200 text-lg font-semibold grow whitespace-nowrap">
+                  <a href="TODO-Submit-Prayer">
+                    Submit Prayer Request
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-stretch w-2/5 ml-5 max-md:w-full max-md:ml-0">
+            <img loading="lazy" src="./images/praying-hands.svg" alt="picture of hands together in prayer"
+              class="aspect-[0.68] object-contain object-center w-full fill-stone-200 fill-opacity-50 overflow-hidden grow max-md:mt-10" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------- Our Journey/Vision Section ----------------->
+    <div id="journey"
+      class="items-center self-stretch bg-stone-200 bg-opacity-50 flex w-full flex-col px-20 py-12 max-md:max-w-full max-md:px-5">
+      <h3
+        class="text-orange-500 text-center text-lg font-semibold leading-8 tracking-wider whitespace-nowrap mt-20 max-md:mt-10">
+        OUR JOURNEY
+      </h3>
+      <h2 class="text-stone-700 text-center text-4xl font-semibold leading-10 tracking-tighter mt-4 max-md:max-w-full">
+        Vision, Milestones & Aspirations
+      </h2>
+      <p
+        class="text-black text-opacity-80 text-center text-lg leading-8 tracking-wider max-w-[555px] mt-4 max-md:max-w-full">
+        In the early stages of our journey, we chart intentional steps, finding
+        our deepest assurance in Proverbs 16:9 as we stride toward the future.
+      </p>
+      <ul class="items-stretch content-start flex-wrap flex w-[555px] max-w-full gap-4 mt-6">
+        <li
+          class="text-white text-center text-base font-semibold whitespace-nowrap justify-center items-stretch bg-stone-700 grow p-2.5 rounded-xl">
+          First Family Meeting
+        </li>
+        <li class="text-stone-700 text-center text-base font-semibold whitespace-nowrap justify-center items-stretch border
+          border-[color:var(--Plum-100,#563943)] bg-white grow p-2.5 rounded-xl border-solid">
+          Placeholder
+        </li>
+        <li class="text-stone-700 text-center text-base font-semibold whitespace-nowrap justify-center items-stretch border
+          border-[color:var(--Plum-100,#563943)] bg-white grow p-2.5 rounded-xl border-solid">
+          Placeholder
+        </li>
+        <li class="text-stone-700 text-center text-base font-semibold whitespace-nowrap justify-center items-stretch border
+          border-[color:var(--Plum-100,#563943)] bg-white grow p-2.5 rounded-xl border-solid">
+          Future Aspirations
+        </li>
+      </ul>
+
+      <!----------------- First Family Meeting Section ----------------->
+      <div class="justify-center w-full max-w-[1312px] mt-16 mb-14 max-md:max-w-full max-md:my-10">
+        <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+          <div class="flex flex-col items-stretch w-[52%] max-md:w-full max-md:ml-0">
+            <img loading="lazy" src="./images/family-image.jpg"
+              alt="group picture of the founding members of simple church"
+              class="aspect-[2.6] object-center object-cover overflow-hidden grow max-md:max-w-full max-md:mt-10" />
+          </div>
+          <div class="flex flex-col items-stretch w-[48%] ml-5 max-md:w-full max-md:ml-0">
+            <div class="justify-center items-stretch self-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10">
+              <h2 class="text-stone-700 text-3xl font-semibold leading-10 tracking-tighter max-md:max-w-full">
+                First Family Meeting
+              </h2>
+              <p class="text-black text-opacity-80 text-lg leading-8 tracking-wider mt-4 max-md:max-w-full">
+                Here, we worshiped, shared meals, and fostered fellowship,
+                embodying the essence of our mission. As we discussed next steps,
+                this gathering set the tone for our community—a family bound by
+                faith and a shared commitment to journey together in His name.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------- Our Sermons Section ----------------->
+    <div id="sermons"
+      class="items-stretch self-stretch bg-stone-200 bg-opacity-50 flex w-full flex-col pb-12 max-md:max-w-full">
+      <div class="items-center bg-white flex w-full flex-col px-20 py-12 max-md:max-w-full max-md:px-5">
+        <h3
+          class="text-orange-500 text-center text-lg font-semibold leading-8 tracking-wider whitespace-nowrap mt-20 max-md:mt-10">
+          MESSAGES
+        </h3>
+        <h2
+          class="text-stone-700 text-center text-4xl font-semibold leading-10 tracking-tighter mt-4 max-md:max-w-full">
+          Our Sermons
+        </h2>
+        <p
+          class="text-black text-opacity-80 text-center text-lg font-medium leading-8 tracking-wider max-w-[539px] mt-4 max-md:max-w-full">
+          Delve deeper into the richness of God's Word by exploring additional
+          sermons in our collection.
+        </p>
+        <div class="justify-center items-stretch bg-stone-700 flex gap-2.5 mt-6 px-6 py-3 rounded-xl max-md:px-5">
+          <a href="TODO-Explore" class="text-stone-200 text-lg font-semibold grow whitespace-nowrap">
+            Explore More
+          </a>
+        </div>
+        <div class="w-full max-w-[1310px] mt-12 mb-14 max-md:max-w-full max-md:my-10">
+          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div class="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
+              <div class="items-stretch flex grow flex-col pb-9 max-md:mt-8">
+                <img loading="lazy" src="./images/sermon-thumbnail-2.jpg" alt="placeholder image for sermon link"
+                  class="aspect-[1.38] object-contain object-center w-full overflow-hidden" />
+                <div class="justify-center flex flex-col mt-6 px-4 items-start">
+                  <h3
+                    class="self-stretch text-stone-900 text-2xl font-semibold leading-8 tracking-tight whitespace-nowrap">
+                    This is the sermon title
+                  </h3>
+                  <p class="self-stretch text-black text-opacity-80 text-lg font-medium leading-8 tracking-wider mt-2">
+                    This is a sentence or two about each of the sermons that will
+                    be shown here
+                  </p>
+                  <div class="justify-center items-stretch flex gap-2.5 mt-6 rounded-xl">
+                    <a href="TODO-Sermon-Link-1" class="text-orange-500 text-base font-semibold">
+                      Watch Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+              <div class="items-stretch flex grow flex-col pb-9 max-md:mt-8">
+                <img loading="lazy" src="./images/sermon-thumbnail-3.jpg" alt="placeholder image for sermon link"
+                  class="aspect-[1.39] object-contain object-center w-full overflow-hidden" />
+                <div class="justify-center flex flex-col mt-6 px-4 items-start">
+                  <h3
+                    class="self-stretch text-stone-900 text-2xl font-semibold leading-8 tracking-tight whitespace-nowrap">
+                    This is the sermon title
+                  </h3>
+                  <p class="self-stretch text-black text-opacity-80 text-lg font-medium leading-8 tracking-wider mt-2">
+                    This is a sentence or two about each of the sermons that will
+                    be shown here
+                  </p>
+                  <div class="justify-center items-stretch flex gap-2.5 mt-6 rounded-xl">
+                    <a href="TODO-Sermon-Link-2" class="text-orange-500 text-base font-semibold">
+                      Watch Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+              <div class="items-stretch flex grow flex-col pb-9 max-md:mt-8">
+                <img loading="lazy" src="./images/sermon-thumbnail-1.jpg" alt="placeholder image for sermon link"
+                  class="aspect-[1.38] object-contain object-center w-full overflow-hidden" />
+                <div class="justify-center flex flex-col mt-6 px-4 items-start">
+                  <h3
+                    class="self-stretch text-stone-900 text-2xl font-semibold leading-8 tracking-tight whitespace-nowrap">
+                    This is the sermon title
+                  </h3>
+                  <p class="self-stretch text-black text-opacity-80 text-lg font-medium leading-8 tracking-wider mt-2">
+                    This is a sentence or two about each of the sermons that will
+                    be shown here
+                  </p>
+                  <div class="justify-center items-stretch flex gap-2.5 mt-6 rounded-xl">
+                    <a href="TODO-Sermon-link-3" class="text-orange-500 text-base font-semibold">
+                      Watch Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------------- Join Our Mission Section ----------------->
+      <div id="join-us"
+        class="flex-col items-center overflow-hidden self-center relative flex min-h-[463px] w-full max-w-[1312px] mt-2.5 mb-14 px-20 py-12 rounded max-md:max-w-full max-md:mb-10 max-md:px-5">
+        <img loading="lazy" src="./images/hero.jpg" alt="hero image of a sunset"
+          class="absolute h-full w-full object-cover object-center inset-0" />
+        <h3
+          class="relative text-white text-center text-lg font-semibold leading-8 tracking-wider whitespace-nowrap mt-12 max-md:mt-10">
+          JOIN US
+        </h3>
+        <h2
+          class="relative text-stone-200 text-center text-4xl font-semibold leading-10 tracking-tighter mt-4 max-md:max-w-full">
+          Uniting Hearts & Buildings Communities
+        </h2>
+        <p
+          class="relative text-white text-center text-lg font-medium leading-8 tracking-wider max-w-[735px] mt-4 max-md:max-w-full">
+          Join our mission as we gather, worship, and scatter to make a lasting
+          impact in Jesus’s name. Embrace the journey of faith, fellowship, and
+          shared purpose with a community where strangers become friends and
+          friends become family.
+        </p>
+        <div
+          class="relative justify-center items-stretch bg-stone-700 flex gap-2.5 mt-6 mb-12 px-6 py-3 rounded-xl max-md:mb-10 max-md:px-5">
+          <a href="TODO-Email-Signup" class="text-stone-200 text-lg font-semibold grow whitespace-nowrap">
+            Sign Up For Updates
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!----------------- Footer ----------------->
+    <footer class="flex-col justify-center items-center self-stretch overflow-hidden relative flex min-h-[407px] w-full pt-12 pb-8 px-16 max-md:max-w-full max-md:px-5
+      bg-stone-900">
+      <img src="./images/footer-overlay.png" class="absolute inset-0  w-full opacity-5"
+        alt="topographic lines overlaying background">
+
+      </img>
+      <div class="relative flex w-full max-w-[1312px] flex-col items-stretch mt-20 max-md:max-w-full max-md:mt-10">
+        <div class="justify-between items-stretch flex gap-5 max-md:max-w-full max-md:flex-wrap">
+          <div class="items-center flex flex-col">
+            <img loading="lazy" src="./images/footer-logo.png" alt="simple church logo"
+              class="aspect-[2.58] object-contain object-center w-[214px] overflow-hidden" />
+            <a href="TODO-Send-sc-an-email"
+              class="items-center self-stretch flex justify-between gap-2.5 mt-2.5 px-2.5">
+              <div
+                class="justify-center items-center bg-amber-300 flex aspect-square flex-col w-[26px] h-[26px] my-auto px-1 rounded-lg">
+                <img loading="lazy" src="./images/email-icon.png" alt="email link icon"
+                  class="aspect-[1.29] object-contain object-center w-full overflow-hidden" />
+              </div>
+              <p class="text-white text-xs font-medium leading-8 tracking-wide self-stretch grow whitespace-nowrap">
+                connect@simplechurch.cc
+              </p>
+            </a>
+          </div>
+          <div class="justify-end items-stretch flex flex-col pt-12">
+            <div class="justify-between items-stretch flex gap-3 mt-1 px-0.5">
+              <a href="TODO-Goto-church-center-home">
+                <img loading="lazy" src="./images/church-center-link.png" alt="image linking to church center app"
+                  class="aspect-[7.19] object-contain object-center w-[151px] overflow-hidden shrink-0 max-w-full" />
+              </a>
+            </div>
+            <div class="flex justify-between gap-2 mt-6 pr-20 items-start max-md:pr-5">
+              <a href="TODO-Goto-Facebook">
+                <img loading="lazy" src="./images/facebook-icon.png" alt="icon link to facebook"
+                  class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" />
+              </a>
+              <a href="TODO-Goto-instagram">
+                <img loading="lazy" src="./images/instagram-icon.png" alt="icon link to instagram"
+                  class="aspect-[0.96] object-contain object-center w-6 overflow-hidden self-stretch shrink-0 max-w-full" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <p
+          class="text-stone-200 text-xs font-medium leading-8 tracking-wide self-center whitespace-nowrap mt-24 max-md:mt-10">
+          © 2023 Simple Church. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+  </main>
+</body>
+
+</html>
